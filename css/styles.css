@@ -1,8 +1,13 @@
 body{
   
   font-family: 'Roboto', sans-serif;
-  background-color: #fff;
-  
+  font-weight: normal;
+  background: #E5E5E5;
+  color: #212121;
+}
+.page-header{
+  background: #FFFFFF;
+
 }
 .list{
   list-style: none;
@@ -41,20 +46,25 @@ body{
 }
 
 .link{
-  color: #000;
+  color: #212121;
   text-decoration: none;
 }
 .navigation-links{
-  
   font-weight: 500;
   font-size: 14px;
+  
 }
-
+.contacts-mail-links,
+.contacts-tel-links{
+  color: #757575
+}
 .navigation-links .link:hover,
 .navigation-links .link:focus{
   color: #2196F3;
   
-
+}
+.current{
+  color:#2196F3 ;
 }
 .contacts-mail-links .link:hover,
 .contacts-mail-links .link:focus{
@@ -99,10 +109,96 @@ body{
 .order-button .button:hover,
 .order-button .button:focus{
   color: #188CE8;
-
+}
 .button-text{
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
+  
+}
+.title{
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.title-content{
+  font-size: 14px;
+  line-height: 24px;
+  color: #757575;
+  ;
+}
+.work-section{
+  background: #E5E5E5;
+}
+.title-work{
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  
+  
+  }
+  .team-section{
+    background: #F5F4FA;
+  }
+  .title-team{
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+  }
+.team-subtitle{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.team-functions{
+  font-size: 16px;
+  line-height: 19px;
+  color: #757575;
+}
+.contact{
+width: 1600px;
+height: 130px;
+left: 0px;
+top: 2097px;
+background: #2F303A;
+}
+.contact-link{
+  color: #757575;
+}
+.list-contact .link:hover,
+.list-contact .link:focus{
+  color: #2196F3;
+}
+.portfolio{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.button-portfolio{ 
+  background: #F5F4FA;
+  border-radius: 4px;
+}
+
+.button-portfolio .button:hover,
+.button-portfolio .button:focus{
+  color: #2196F3;
+}
+.current{
+ color: #2196F3;
+}
+.title-portfolio{
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+}
+
+
+.title-function{
+
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
   
 }
