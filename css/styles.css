@@ -2,7 +2,7 @@ body{
   
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
-  cursor: pointer;
+  
 }
 .web-studio-link{
   text-decoration: none;
@@ -49,3 +49,5 @@ body{
 .contacts-mail-links .link:focus{
   color: #2196F3;
 }
+
+.order-title{
