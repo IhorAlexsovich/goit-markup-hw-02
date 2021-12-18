@@ -1,4 +1,51 @@
 body{
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
+  
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  cursor: pointer;
+}
+.web-studio-link{
+  text-decoration: none;
+
+}
+
+.web-studio-color-web{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2196F3;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  
+  
+  
+}
+.web-studio-color-studio{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+
+}
+.link{
+  color: #000;
+  text-decoration: none;
+}
+
+.navigation-links .link:hover,
+.navigation-links .link:focus{
+  color: #2196F3;
+
+}
+.contacts-mail-links .link:hover,
+.contacts-mail-links .link:focus{
+  color: #2196F3;
 }
