@@ -5,6 +5,11 @@ body{
   background: #E5E5E5;
   color: #212121;
 }
+.link{
+  color: #212121;
+  text-decoration: none;
+}
+/*header*/
 .page-header{
   background: #FFFFFF;
 
@@ -26,7 +31,7 @@ body{
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1,19;
   
   
   
@@ -40,15 +45,11 @@ body{
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
-  
+  line-height: 1,19;
 
 }
+/*nav */
 
-.link{
-  color: #212121;
-  text-decoration: none;
-}
 .navigation-links{
   font-weight: 500;
   font-size: 14px;
@@ -72,9 +73,9 @@ body{
 }
 
 
+/*order-main */
 
 .order{
- 
   width: 1600px;
   height: 400px;
   left: 0px;
@@ -94,6 +95,8 @@ body{
   text-align: center;
   color: #fff;
 }
+/*button */
+
 .order-button{
   position: absolute;
   width: 200px;
@@ -113,18 +116,20 @@ body{
 .button-text{
   font-weight: bold;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,87;
   
 }
+/*title */
+
 .title{
   font-weight: bold;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1,14;
 }
 
 .title-content{
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1,71;
   color: #757575;
   ;
 }
@@ -134,29 +139,30 @@ body{
 .title-work{
   font-weight: bold;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1,16;
   text-align: center;
-  
-  
   }
+  /* team*/
   .team-section{
     background: #F5F4FA;
   }
   .title-team{
     font-weight: bold;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
   }
 .team-subtitle{
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,187;
 }
 .team-functions{
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1,18;
   color: #757575;
 }
+/*contact */
+
 .contact{
 width: 1600px;
 height: 130px;
@@ -171,19 +177,25 @@ background: #2F303A;
 .list-contact .link:focus{
   color: #2196F3;
 }
+/*portfolio */
 .portfolio{
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1,62;
+}
+.button-portfolio,
+.order-button{
+  cursor: pointer;
 }
 .button-portfolio{ 
   background: #F5F4FA;
   border-radius: 4px;
 }
 
-.button-portfolio .button:hover,
-.button-portfolio .button:focus{
-  color: #2196F3;
+.button-portfolio:hover,
+.button-portfolio:focus{
+  background-color: #2196F3;
+  color: #F5F4FA;
 }
 .current{
  color: #2196F3;
@@ -191,14 +203,14 @@ background: #2F303A;
 .title-portfolio{
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
 }
 
 
 .title-function{
 
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1,87;
   color: #757575;
   
 }
