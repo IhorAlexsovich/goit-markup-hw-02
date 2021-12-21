@@ -5,6 +5,10 @@ body{
   background: #E5E5E5;
   color: #212121;
 }
+:root{
+  --brand-color: #212121;
+
+}
 .link{
   color: #212121;
   text-decoration: none;
@@ -110,6 +114,8 @@ body{
   color: #188CE8;
 }
 .button-text{
+  font-family: Roboto;
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
@@ -187,6 +193,7 @@ background: #2F303A;
 .button-portfolio{ 
   background: #F5F4FA;
   border-radius: 4px;
+  color: var(--brand-color);
 }
 
 .button-portfolio:hover,
@@ -198,30 +205,56 @@ background: #2F303A;
  color: #2196F3;
 }
 .button-all{
+  
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   width: 73px;
   height: 38px;
   left: 495px;
   top: 174px;
 }
 .button-web{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   width: 128px;
   height: 38px;
   left: 576px;
   top: 174px;
 }
 .button-app{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   width: 145px;
   height: 38px;
   left: 712px;
   top: 174px;
 }
 .button-design{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   width: 103px;
   height: 38px;
   left: 865px;
   top: 174px;
 }
 .button-marketing{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   width: 130px;
   height: 38px;
   left: 976px;
@@ -264,7 +297,6 @@ background: #2F303A;
 }
   .contact-link-maps{
   font-style: normal;
-  font-weight: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.5;
