@@ -5,6 +5,11 @@ body{
   background: #E5E5E5;
   color: #212121;
 }
+.img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 :root{
   --brand-color: #212121;
 
@@ -207,6 +212,7 @@ background: #2F303A;
 .button-all{
   
   font-family: Roboto;
+ 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
